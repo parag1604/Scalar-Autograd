@@ -6,7 +6,7 @@ A tiny automatic-differentiation engine on scalars, in the spirit of micrograd. 
 
 ## Theory
 
-Lecture notes for this topic are coming soon on https://parag1604.github.io/notes
+Please note that the theory corresponding to the codes is hosted on this [page](https://parag1604.github.io/notes/Machine-Learning/Neural-Networks#backpropagation) (section "Backpropagation", computational graphs and reverse-mode automatic differentiation)
 
 ## Python Environment Setup
 
