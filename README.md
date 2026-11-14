@@ -20,10 +20,6 @@ pip install -r requirements.txt
 - Scikit-learn - only for the bundled Iris dataset (version 6)
 - Graphviz - draws the compute graphs. The python package also needs the Graphviz **system binary** `dot`: `brew install graphviz` (macOS), `sudo apt install graphviz` (Debian/Ubuntu) or https://graphviz.org/download/. Without it the scripts print a hint and skip the drawing; everything else still runs.
 
-## Data
-
-No download needed. Versions 1-5 use hand-written numbers and the four XOR points. Version 6 uses the Iris dataset that ships with scikit-learn (`sklearn.datasets.load_iris`).
-
 ## Running
 
 Each `versionN/` folder is a complete snapshot of the engine (`backend.py`), so diffing two consecutive folders shows exactly what was added. Run everything from the repository root:
